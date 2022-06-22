@@ -170,7 +170,7 @@ function buildCharts(sample) {
 
 // Deliverable 3: Create a Gauge Chart
 // 1. Create a variable that filters the metadata array for the object with the desired sample number.
-var metadata = data.metadata;
+  var metadata = data.metadata;
 
     // 2. Create a variable that holds the first sample in the metadata array.
     var gaugeArray = metadata.filter(metadataObj => metadataObj.id == sample);
